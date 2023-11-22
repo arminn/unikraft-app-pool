@@ -1,0 +1,9 @@
+Use the following dir structure :
+
+{SOMEDIR}/unikraft/unikraft-app-pool/app-httpreply [current]
+{SOMEDIR}/unikraft/unikraft                        [963c62728e3d7190d4f19dae758848d1107e319e (HEAD, origin/arm64_xen)]
+{SOMEDIR}/unikraft/libs/lib-lwip                   [555f4e2 (HEAD, tag: RELEASE-0.10.0)]
+
+in {SOMEDIR}/unikraft/unikraft-app-pool/app-httpreply make
+
+NOTE: REMOVE ./build dir if you change something in external libs/sources
